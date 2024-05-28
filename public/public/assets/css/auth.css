@@ -1,0 +1,128 @@
+/* Inscription */
+.auth_section {
+    top: 0;
+    left: 0;
+    min-height: 10vh;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+}
+
+.auth_section:before {
+    content: "";
+    background-color: rgba(30, 55, 139, 0.863);
+    position:absolute;
+    inset: 0;
+}
+
+.auth_section .titre{
+    font-size: 56px;
+    font-weight: 500;
+    color: #fff;
+    font-family: var(--font-secondary);
+}
+/* before cards */
+.before-card {
+    padding: 20px;
+    text-align: justify;
+}
+/* Cards */
+.cards {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid rgba(53, 53, 53, 0.849);
+    border-radius: 0px 30px 30px 30px;
+    box-shadow: 0 4px 8px rgba(20, 20, 20, 0.2);
+    animation: entrer 2s ease;
+}
+
+@keyframes entrer {
+    0% {
+        transform: translateX(-30vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* H3 inscription */
+
+.inscription {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+/* Input */
+.__input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgba(30, 55, 139, 0.863);
+}
+
+.__success {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(26, 107, 53);
+}
+
+.__erreur {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(26, 107, 53);
+}
+/* bounce */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Button */
+
+.__btn {
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    height: 40px;
+    background-color: rgba(41, 41, 167, 0.795);
+    color: whitesmoke;
+    box-shadow: 0 8px 12px rgba(39, 37, 37, 0.301);
+    border-radius: 0px 30px 30px 30px;
+    transition: 1s background-color;
+}
+.__btn:hover {
+    background-color: rgba(38, 38, 212, 0.87);
+}
+
+.__link {
+    text-align: center;
+    margin-top: 8px;
+    color: rgba(41, 41, 206, 0.925);
+    transition: 1s color;
+}
+
+.__link:hover {
+    color:rgba(24, 24, 216, 0.822);
+}
+
+.ins {
+    color: rgba(14, 160, 14, 0.815);
+    transition: 1s color;
+}
+.ins:hover {
+    color: green;
+}

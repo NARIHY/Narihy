@@ -1,0 +1,42 @@
+.debut_section {
+    top: 0;
+    left: 0;
+    min-height: 30vh;
+    width: 100%;
+    background-image: url('../img/hero-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.debut_section:before {
+    content: "";
+    background-color: rgba(27, 47, 69, 0.6);
+    position:absolute;
+    inset: 0;
+}
+
+.debut_section .titre{
+    font-size: 56px;
+    font-weight: 500;
+    color: #fff;
+    font-family: var(--font-secondary);
+}
+
+/* contact section */
+
+.contact_section {
+    top: 0;
+    left: 0;
+    min-height: 30vh;
+    width: 100%;
+    background-color: rgba(30, 57, 85, 0.9);
+    position: relative;
+}
+.contact_section .titre{
+    font-size: 56px;
+    font-weight: 500;
+    color: #fff;
+    font-family: var(--font-secondary);
+}

@@ -1,0 +1,74 @@
+
+.cards {
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+/* Styles pour les écrans de petite taille (par exemple, smartphones) */
+@media screen and (max-width: 1200px) {
+    .cards {
+        width: calc(50% - 20px);/* 2 cartes par ligne sur les petits écrans */
+    }
+}
+@media screen and (max-width: 800px) {
+    .cards {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+.cards:hover {
+    transform: translateY(-15px);
+}
+/* Style pour l'image */
+.cards-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+/* card-title style*/
+.cards-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    overflow: hidden; /* Masquer le texte excédentaire */
+    white-space: nowrap; /* Empêcher le retour à la ligne */
+    text-overflow: ellipsis; /* Afficher des points de suspension (...) si le texte est tronqué */
+}
+
+.cards-body {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    overflow: hidden; /* Masquer le texte excédentaire */
+    white-space: nowrap; /* Empêcher le retour à la ligne */
+    text-overflow: ellipsis; /* Afficher des points de suspension (...) si le texte est tronqué */
+}
+
+
+.__links {
+    color: rgb(0, 89, 255);
+
+}
+
+.__links:hover {
+    color: rgb(0, 89, 255);
+    animation: 1s droite ease;
+}
+
+@keyframes droite {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
