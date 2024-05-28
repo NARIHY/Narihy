@@ -1,10 +1,5 @@
-Projet d'étude
-
-Login de base
-Nom: Admin
-Prénon: Site
-Nom d'utilisateur: Narihy
-Email: narihy@demo.mg
-Mots de passe: Zmfd?B,6r
-
-nb: //Ajouter une notification sur chaque action fait dans le site
+<h1> NARIHY </h1>
+<p>
+    Ceci est un petit mini projet qui consiste à me créer un petit site avec le framwork laravel pour créer mon portfolio
+    Il y en a encore quelques bug a corriger mais il fonctionne à 70%
+</p>
