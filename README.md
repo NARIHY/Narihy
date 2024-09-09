@@ -1,5 +1,20 @@
-<h1> NARIHY </h1>
-<p>
-    Ceci est un petit mini projet qui consiste à me créer un petit site avec le framwork laravel pour créer mon portfolio
-    Il y en a encore quelques bug a corriger mais il fonctionne à 70%
-</p>
+## Mahenina Randrianarisoa
+
+Développeur Web passionné par Laravel. Je crée des applications web performantes et intuitives.
+
+**Compétences:** PHP, Java, Laravel, SQL, JavaScript, HTML, CSS, Git
+
+**Projets:**
+
+* **NARIHY:** Mon portfolio personnel développé avec Laravel. [https://github.com/NARIHY/Narihy]
+* **[Projet 2] :** [Description courte, lien]
+
+**Intéressé par :**
+
+* Développement back-end
+* Développement full stack
+* Développement web
+* Architecture logicielle
+* Open-source
+
+N'hésitez pas à me contacter pour discuter de vos projets !
