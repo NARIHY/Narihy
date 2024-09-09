@@ -7,7 +7,7 @@ Développeur Web passionné par Laravel. Je crée des applications web performan
 **Projets:**
 
 * **NARIHY:** Mon portfolio personnel développé avec Laravel. [https://github.com/NARIHY/Narihy]
-* **[Projet 2] :** [Description courte, lien]
+* **Calendrier  :** Gestion de calendrier [https://github.com/NARIHY/Calendar-JTP]
 
 **Intéressé par :**
 
