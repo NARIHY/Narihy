@@ -1,8 +1,8 @@
 ## Mahenina Randrianarisoa
 
-Développeur Web passionné par Laravel. Je crée des applications web performantes et intuitives.
+Développeur Web passionné par le développement fullstack. Je crée des applications web performantes et intuitives.
 
-**Compétences:** PHP, Java, Laravel, SQL, JavaScript, HTML, CSS, Git
+**Compétences:** PHP, Java, Laravel, SQL, JavaScript, HTML, CSS, Git, d'autre framwork
 
 **Projets:**
 
